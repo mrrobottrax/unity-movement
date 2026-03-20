@@ -3,7 +3,7 @@ Unity has an issue. Box cast returns incorrect normal vectors against some mesh 
 
 **Before**
 
-![Jittery movement with bad normal vectors](images/normal_issue_lq.webp) 
+![Jittery movement with bad normal vectors](images/normal_issue_lq.gif) 
 
 **After**
 
