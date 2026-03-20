@@ -281,7 +281,7 @@ public class MoveSimple : MonoBehaviour
 			} while (false);
 		}
 
-		hitInfo.normal.Normalize();
+		hitInfo.normal = hitInfo.normal.normalized;
 
 		float nDot = -Vector3.Dot(hitInfo.normal, direction);
 		float newDist = hitInfo.distance - Mathf.Abs(m_SkinWidth / nDot);
